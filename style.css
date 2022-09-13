@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
+:root {
+   /* here we can declare custom style variables. see https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-custom-properties */
+  }
+
+body{
+    margin: 0px;
+}
+
+#container {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+}
+
+/* left hand side of the page */
+#lpanel {
+    min-height: 100vh;
+    min-width: 40vw;
+    background: no-repeat url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: contain;
+}
+
+#logoContainer {
+    margin-top: 16vh;
+    max-height: 10vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    font-family: Norse-Bold;
+    font-size: 7vh;
+    background: black;
+    opacity: 0.3
+    
+}
+img {
+    max-height: 10vh;
+    max-width: auto;
+}
+#logoText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* right hand side of the page */
+#rpanel {
+
+}
