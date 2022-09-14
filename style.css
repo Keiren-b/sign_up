@@ -4,6 +4,7 @@
 }
 
 :root {
+
    /* here we can declare custom style variables. see https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-custom-properties */
   }
 
@@ -26,26 +27,34 @@ body{
 }
 
 #logoContainer {
-    margin-top: 16vh;
-    max-height: 10vh;
+    margin-top: 20vh;
     display: flex;
     align-items: center;    
     justify-content: center;
     font-family: Norse-Bold;
     font-size: 7vh;
-    background: black;
-    opacity: 0.3
+    background: rgba(0,0, 0, 0.4)
+    
     
 }
-img {
+/* img {
     height: 10vh;
     max-width: auto;
+} */
+
+#llogo {
+    height: 10vh;
+    width: 6vw;
+    background: no-repeat url(odin-lined.png);
+    background-size: contain;
+    opacity: 1;
 }
 #logoText {
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+   
 }
 
 /* right hand side of the page */
