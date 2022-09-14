@@ -44,20 +44,53 @@ body{
 } */
 
 #llogo {
-    height: 10vh;
-    width: 6vw;
+    min-height: 10vh;
+    width: 5vw;
     background: no-repeat url(odin-lined.png);
     background-size: contain;
     opacity: 1;
 }
 #logoText {
     height: 10vh;
-    line-height: 10vh;
+    line-height: 11.5vh;
     color: white;
    
 }
 
 /* right hand side of the page */
 #rpanel {
+min-height: 100vh;
+min-width: 60vw;
+padding-left: 5vw;
+background-color: whitesmoke;
+}
 
+h1 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 0px;
+    padding-top:12vh;
+}
+
+button {
+    background-color: #596D48;
+    color: whitesmoke;
+    border: none;
+    font-size: 1.2rem;
+    padding: 1rem 4rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 7px #c5c3c3;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding-top: 2vh;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
 }
