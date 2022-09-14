@@ -20,7 +20,32 @@
     </div>
     <div id="rpanel">
         <h1 id="text">This is not a real online service! You know you need something <br> like this in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to.</h1>
-        <h1 id="form"></h1>
+        
+        <form action="example.com/path" method="post">
+            <fieldset>
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name">
+              
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name">
+              </fieldset>
+              <fieldset>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="phone_number">Phone Number:</label>
+                <input type="tel" id="phone_number" name="phone_number">
+              </fieldset>
+              <fieldset>
+                <label for="password">Password: </label>
+                <input id="password" type="password" required>
+
+                <label for="password_confirm">Confirm Password: </label>
+                <input id="password_confirm" type="password" required>
+
+              </fieldset>
+        </form>
+       
         <div id="button">
             <button>Create Account</button>
             <h4>Already have account?
