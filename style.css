@@ -28,6 +28,7 @@ body{
 
 #logoContainer {
     margin-top: 20vh;
+    height: 10vh;
     display: flex;
     align-items: center;    
     justify-content: center;
@@ -50,9 +51,8 @@ body{
     opacity: 1;
 }
 #logoText {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 10vh;
+    line-height: 10vh;
     color: white;
    
 }
