@@ -22,7 +22,7 @@ body{
     min-height: 100vh;
     min-width: 40vw;
     background: no-repeat url(halie-west-25xggax4bSA-unsplash.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 
 #logoContainer {
@@ -38,7 +38,7 @@ body{
     
 }
 img {
-    max-height: 10vh;
+    height: 10vh;
     max-width: auto;
 }
 #logoText {
