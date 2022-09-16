@@ -23,25 +23,38 @@
         
         <form action="example.com/path" method="post">
             <fieldset>
-                <label for="first_name">First Name</label>
-                <input type="text" id="first_name" name="first_name">
-              
-                <label for="last_name">Last Name</label>
-                <input type="text" id="last_name" name="last_name">
+                ,<legend>Let's do this!</legend>
+                <div id='input-container'>
+                    <label for="first_name">FIRST NAME: </label>
+                    <input type="text" id="first_name" name="first_name">
+                </div>
+                
+                <div id='input-container'>
+                    <label for="last_name">LAST NAME: </label>
+                    <input type="text" id="last_name" name="last_name">
+                </div>
+                
               </fieldset>
               <fieldset>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                <div id='input-container'>
+                    <label for="email">EMAIL: </label>
+                    <input type="email" id="email" name="email">
+                </div>
 
-                <label for="phone_number">Phone Number:</label>
-                <input type="tel" id="phone_number" name="phone_number">
+                <div id='input-container'>
+                    <label for="phone_number">PHONE NUMBER: </label>
+                    <input type="tel" id="phone_number" name="phone_number">
+                </div>
               </fieldset>
               <fieldset>
-                <label for="password">Password: </label>
-                <input id="password" type="password" required>
+                <div id="input-container">
+                    <label for="password">PASSWORD: </label>
+                    <input id="password" type="password" required>
 
-                <label for="password_confirm">Confirm Password: </label>
-                <input id="password_confirm" type="password" required>
+                </div><div id="input-container">
+                    <label for="password_confirm">CONFIRM PASSWORD: </label>
+                    <input id="password_confirm" type="password" required>
+                </div>
 
               </fieldset>
         </form>
@@ -55,5 +68,6 @@
         </div>
     </div>
 </div>
+<script src="java.js" defer></script>
 </body>
 </html>
