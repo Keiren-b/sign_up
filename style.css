@@ -152,14 +152,17 @@ textarea {
   box-sizing: border-box;
 }
 
-input:focus {
+.error
+{
+    border:1px solid red
+
+}
+
+
+
+input:focus{
 background-color:rgb(248, 247, 247);
 border:1px solid blue;
 box-shadow: 4px 4px 7px #c5c3c3;
 }
 
-.error {
-
-    border:1px solid red
-    
-}
